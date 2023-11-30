@@ -205,11 +205,13 @@ header::before {
 }
 .adver-item:hover {
   transform: scale(105%);
+  box-shadow: 0 0 1rem #000000;
   transition: 0.5s;
 }
 
 .adver-item img {
   width: 400px;
+  height: 200px;
 }
 
 .adver-item-text h2, .adver-item-text p {
@@ -360,8 +362,8 @@ header::before {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: rgb(20, 20, 20);
-    opacity: 95%;
+    background-color: rgb(255, 255, 255);
+    opacity: 100%;
     padding: 100px 0 0 0;
     z-index: 21;
     transition: 1s;
@@ -378,14 +380,14 @@ header::before {
     margin-left: 66%;
   }
   .header_list li a {
-    color: #c0c0c0;
+    color: #7d7d7d;
     text-decoration: none;
     padding: 0px;
     position: relative;
     transition: 0.5s;
   }
   .header_list li a:hover {
-    color: #ffffff;
+    color: #000000;
     background-color: rgba(255, 255, 255, 0);
     text-decoration: underline;
     transition: 0.5s;
@@ -411,5 +413,6 @@ header::before {
 @media (max-width: 600px) {
   .adver-item img {
     width: 250px;
+    height: 150px;
   }
 }/*# sourceMappingURL=main.css.map */
