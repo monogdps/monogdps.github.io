@@ -40,25 +40,25 @@
         </div>
         <div class="adver">
             <div class="container">
-                <div class="adver-item">
+                <div class="adver-item" id="ds-link">
                     <img src="./img/discord.png" style="margin-right: 30px;" alt=""><br><br>
                     <div class="adver-item-text" style="text-align: right;">
-                        <h2>Грамотно оформленный дискорд сервер</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit iusto ut atque, optio sed odit animi aspernatur, placeat accusantium ducimus at quisquam nulla, repellendus officiis numquam laudantium itaque ipsa ipsam!</p>
+                        <h2>Дискорд сервер</h2>
+                        <p>Мы считаем, что одной из самых основных идей серверов - это общение. На нашем дискорд сервере вы сможете хорошо провести время, отвлекаясь от бесконечных кубиков в игре за 100 рублей. Мы имеем хорошо настроенные каналы и роли, интересных людей и ботов, каналы для связи с администрацией и многое другое. Присоединяйтесь!</p>
                     </div>
                 </div>
-                <div class="adver-item">
+                <div class="adver-item" id="dl-link">
                     <div class="adver-item-text" style="text-align: left;">
-                        <h2>Средние критерии рейта</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit iusto ut atque, optio sed odit animi aspernatur, placeat accusantium ducimus at quisquam nulla, repellendus officiis numquam laudantium itaque ipsa ipsam!</p>
-                    </div><br><br>
-                    <img src="./img/discord.png" style="margin-left: 30px;" alt="">
-                </div>
-                <div class="adver-item">
-                    <img src="./img/discord.png" class="adver-img" style="margin-right: 30px;" alt=""><br><br>
-                    <div class="adver-item-text" style="text-align: right;">
                         <h2>Демонлист</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit iusto ut atque, optio sed odit animi aspernatur, placeat accusantium ducimus at quisquam nulla, repellendus officiis numquam laudantium itaque ipsa ipsam!</p>
+                        <p>Когда Geometry Dash не имела как таковой сложности демона, людям, которым не нравилось строить уровни, приходилось смотреть на креаторов с недоумением и стоять в сторонке. Сейчас всё по другому и соревновательность в игре - это одна из основных её частей и для увелечения этой самой соревновательности в пределах серверу, мы создали демонлист. В нём вы сможете увидеть топ сложнейших оценённых уровней, которые есть на сервере.</p>
+                    </div><br><br>
+                    <img src="./img/dl-present.png" style="margin-left: 30px;" alt="">
+                </div>
+                <div class="adver-item" id="fruit-link">
+                    <img src="./img/fruit.png" class="adver-img" style="margin-right: 30px;" alt=""><br><br>
+                    <div class="adver-item-text" style="text-align: right;">
+                        <h2>Хостинг</h2>
+                        <p>Наш приватный сервер стоит на лучшем хостинге, связанном с Geometry Dash. Это снижает возможность спама, взлома кого-то или чего-то, ддоса и прочего, что происходило до этого на других хостингах. Так же благодаря хостингу у нас есть нормальная система добавления музыки через ютуб вк и др и версия для IOS!</p>
                     </div>
                 </div>
             </div>
@@ -72,6 +72,11 @@
     <script src="./js/include/react/react-dom.min.js"></script>
     <script src="./js/header.js"></script>
     <script src="./js/hamburger.js"></script>
-    <script>document.querySelector('.download-btn').addEventListener('click', () => window.location.href = 'https://gofruit.space/gdps/00Wy');</script>
+    <script>
+        document.querySelector('.download-btn').addEventListener('click', () => window.location.href = 'https://gofruit.space/gdps/00Wy');
+        document.querySelector('#ds-link').addEventListener('click', () => window.location.href = 'https://discord.gg/Zz6wPMBdmj');
+        document.querySelector('#dl-link').addEventListener('click', () => window.location.href = './dl.html');
+        document.querySelector('#fruit-link').addEventListener('click', () => window.location.href = 'https://fruitspace.ru/');
+    </script>
 </body>
 </html>
