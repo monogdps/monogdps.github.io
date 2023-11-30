@@ -268,7 +268,7 @@ header::before {
   align-items: center;
   margin-left: 30px;
   margin-right: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   position: relative;
   transition: 0.5s;
 }
