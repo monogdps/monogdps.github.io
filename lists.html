@@ -12,23 +12,23 @@
     <header id="header"></header>
     <main>
         <div class="up-img">
-            <img src="./img/top-bg.jpg" alt="">
+            <img src="./img/bg/top-bg.jpg" alt="">
         </div>
         <ul class="dl-lists-list">
-            <li class="lists-item">
+            <li class="lists-item dl-btn">
                 <h2>Демонлист</h2>
                 <p>В демонлисте находятся сложнейшие оценённые уровни со всего сервера. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum, ad dignissimos vel quisquam soluta amet, sit inventore praesentium eos quibusdam. Maxime asperiores eius eum ut? Maxime ut velit harum!
                 Provident quidem ad veniam fugit. Molestiae delectus at, labore et provident laboriosam eaque obcaecati veniam rem atque sed ex hic veritatis non. Sint dolore dolorem quam explicabo expedita, architecto facere.
                 Quae fuga ea aliquam explicabo praesentium recusandae quasi harum, iusto ratione consequuntur, sit necessitatibus mollitia suscipit iste excepturi aperiam voluptatem impedit. Alias unde amet, a atque quasi placeat sunt debitis?</p>
-                <img src="./img/dl.png" alt="">
+                <img src="./img/dlp.png" alt="">
                 <p></p>
             </li>
-            <li class="lists-item">
+            <li class="lists-item cl-btn">
                 <h2>Челенджлист</h2>
                 <p>В челенджлисте находятся сложнейшие верифицированные челенджи со всего сервера. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla possimus reprehenderit harum fuga vel, dolor repellat tempore vitae voluptatem aperiam itaque ipsum alias ipsam quas dolorum repellendus id consequatur unde.
                 Ipsam at, nemo aliquid eos et consequuntur culpa iusto accusantium illum delectus! Repellat beatae sapiente velit quisquam soluta, delectus ipsa modi temporibus, et accusamus magni exercitationem obcaecati facere officia harum!
                 Ut placeat, provident dolor laboriosam voluptatum voluptatem dignissimos tempore quia, quibusdam, ipsum ad dolorem repudiandae. Officia, iusto libero. Id numquam illo, explicabo ea in sint cupiditate? Incidunt aperiam ipsa ducimus.</p>
-                <img src="./img/dl.png" alt="">
+                <img src="./img/clp.png" alt="">
                 <p></p>
             </li>
         </ul>
@@ -41,5 +41,9 @@
     <script src="./js/include/react/react-dom.min.js"></script>
     <script src="./js/header.js"></script>
     <script src="./js/hamburger.js"></script>
+    <script>
+        document.querySelector('.dl-btn').addEventListener('click', () => window.location.href = './dl.html');
+        document.querySelector('.cl-btn').addEventListener('click', () => window.location.href = './cl.html');
+    </script>
 </body>
 </html>
