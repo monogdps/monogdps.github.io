@@ -21,6 +21,7 @@
 
 body {
   overflow-x: hidden;
+  position: relative;
 }
 
 li {
@@ -257,6 +258,13 @@ header::before {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .footer {
